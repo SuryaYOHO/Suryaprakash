@@ -17,6 +17,7 @@ interface MetricCardProps {
   color: string;
   trend?: string;
   trendDirection?: 'up' | 'down' | 'neutral';
+
 }
 
 const MetricCard: React.FC<MetricCardProps> = ({ 
