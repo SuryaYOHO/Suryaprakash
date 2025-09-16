@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
 /* Add to your global CSS file */
 * {
   transition-property: color, background-color, transform, opacity;
