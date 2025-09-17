@@ -1,30 +1,22 @@
 
 export const COLORS = {
-  primary: "#0D9488",
-  primaryLight: "#CCFBF1",
-  secondary: "#7C3AED",
-  accent: "#F59E0B",
-  background: "#f8f9fa", // ✅ Make sure this exists
-  
-
-  // Unique updated backgrounds
-  navbar: "#ccfbf1", // Light Teal
-  sidebar: "#FDF4FF",  // Light Lavender
-
-  footer: "#E2E8F0",
-  textPrimary: "#374151",
-  textSecondary: "#6B7280",
-  textDisabled: "#9CA3AF",
-  border: "#E5E7EB",
-  white: "#FFFFFF",
-
-  success: "#16A34A",
-  danger: "#DC2626",
-  warning: "#FACC15",
-};
-
-
-
+  primary: "#123456",
+  primaryLight: "#abcdef",
+  secondary: "#789abc",
+  accent: "#fedcba",
+  navbar: "#111111",
+  sidebar: "#222222",
+  footer: "#333333",
+  textPrimary: "#444444",
+  textSecondary: "#555555",
+  textDisabled: "#666666",
+  border: "#777777",
+  white: "#ffffff",
+  success: "#00ff00",
+  danger: "#ff0000",
+  warning: "#ffff00",
+  background: "#f0f0f0", // <--- add this line
+}; 
 
 
 export const FONTS = {

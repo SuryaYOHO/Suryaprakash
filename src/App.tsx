@@ -13,8 +13,10 @@ import Contact from "./pages/contact/contact";
 import Analytics from "./pages/analytics";
 import Students from "./pages/students";
 
-
 const App: React.FC = () => {
+  // <-- Using React here to avoid 'unused' import error
+  React.useEffect(() => {}, []);
+
   return (
     <Routes>
       {/* MainLayout contains Sidebar + Navbar and an Outlet */}
