@@ -4,6 +4,8 @@ export const COLORS = {
   primaryLight: "#CCFBF1",
   secondary: "#7C3AED",
   accent: "#F59E0B",
+  background: "#f8f9fa", // ✅ Make sure this exists
+  
 
   // Unique updated backgrounds
   navbar: "#ccfbf1", // Light Teal
